@@ -38,6 +38,14 @@ export class Game extends Scene {
   }
 
   create() {
+    this.add.text(20, 20, 'R - rotate', {
+      fontSize: 32,
+    });
+
+    this.add.text(20, 62, 'LMB - DRAG STAR', {
+      fontSize: 32,
+    });
+
     this.positivePerk = this.cache.json.get("special_positive");
 
     const { width, height } = this.scale;
