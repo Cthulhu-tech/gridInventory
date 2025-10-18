@@ -1,0 +1,48 @@
+import { Game as MainGame } from './scenes/Game';
+import { AUTO, Game } from 'phaser';
+
+import UIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js';
+
+const config: Phaser.Types.Core.GameConfig = {
+    type: AUTO,
+    parent: 'game-container',
+    backgroundColor: '#000',
+    antialiasGL: false,
+    pixelArt: true,
+    preserveDrawingBuffer: true,
+    roundPixels: true,
+    antialias: false,
+    autoRound: false,
+    scale: {
+        width: 1280,
+        height: 720,
+        mode: Phaser.Scale.FIT,
+        autoCenter: Phaser.Scale.CENTER_BOTH,
+        zoom: 1,
+    },
+    fps: {
+        target: 120,
+        min: 30,
+        smoothStep: true,
+    },
+    scene: [
+        MainGame,
+    ],
+    plugins: {
+        scene: [
+            {
+                key: 'rexUI',
+                plugin: UIPlugin,
+                mapping: 'rexUI',
+            },
+        ],
+    },
+};
+
+const StartGame = (parent: string) => {
+
+    return new Game({ ...config, parent });
+
+}
+
+export default StartGame;

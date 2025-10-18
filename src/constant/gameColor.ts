@@ -1,0 +1,4 @@
+export const EnumGameColor = {
+    COLOR_INVENTORY_ELEMENT: 0x000000,
+    COLOR_INVENTORY_ELEMENT_STROKE: 0x000000,
+}

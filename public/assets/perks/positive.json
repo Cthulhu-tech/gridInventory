@@ -1,0 +1,7 @@
+[
+    { "id": "P01", "width": 4, "height": 2, "name": "Will", "category": "Combat", "effect": "Resistance to fear and control effects", "remove_opposite": "N01" },
+    { "id": "P02", "width": 4, "height": 2, "name": "Evasive", "category": "Combat", "effect": "Increased chance to dodge attacks", "remove_opposite": "N02" },
+    { "id": "P07", "width": 4, "height": 2, "name": "Skin", "category": "Physical", "effect": "Incoming damage is reduced", "remove_opposite": "N04" },
+    { "id": "P08", "width": 4, "height": 2, "name": "Engineer", "category": "Intellectual", "effect": "Can repair and modify items", "remove_opposite": "N07" },
+    { "id": "P10", "width": 4, "height": 2, "name": "Lucky", "category": "Special", "effect": "Higher chance of critical success", "remove_opposite": "N09" }
+]
