@@ -25,3 +25,4 @@ Open in your browser and click on the canvas: left-click places floor, right-cli
 
 
 ![screenshot](autotile.jpg)
+# gridInventory
