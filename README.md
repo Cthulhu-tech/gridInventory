@@ -1,6 +1,9 @@
 ![screenshot](gridInventory.jpg)
 # gridInventory
 
+
+CANVAS!
+
 **RU**
 `gridInventory` — грид-инвентарь для **Phaser 3** (TypeScript) в стиле *Resident Evil / Escape from Tarkov / DayZ / NEO Scavenger*: тетрис-ячейки, drag-&-drop, поворот, проверки коллизий и JSON-снапшоты. Ядро без привязки к рендеру; демо-UI на **rexUI**.
 
